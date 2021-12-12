@@ -18,7 +18,6 @@ public class demoTest {
 		System.out.println("This will execute before the Class");
 		System.setProperty("webdriver.chrome.driver", "/Users/riyaanghosh/Downloads/chromedriver");
 		driver = new ChromeDriver();
-		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
