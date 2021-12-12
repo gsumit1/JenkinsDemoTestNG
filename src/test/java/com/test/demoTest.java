@@ -57,7 +57,6 @@ public class demoTest {
 
 	@AfterMethod
 	public void afterClass() {
-		driver.close();
 		driver.quit();
 	}
 
