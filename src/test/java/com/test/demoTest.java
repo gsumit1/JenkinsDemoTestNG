@@ -23,7 +23,7 @@ public class demoTest {
 		
 	}
 	
-	@Test
+	@Test	
 	public void testCase1() {
 		driver.get("http://demo.guru99.com/test/newtours/index.php");
 		driver.findElement(By.xpath("//a[contains(.,'REGISTER')]")).click();
@@ -53,6 +53,14 @@ public class demoTest {
 
 	}
 
+	
+	@Test(groups = {"smoke"})
+	public void smoke() {
+		System.setProperty("webdriver.chrome.driver", "/Users/riyaanghosh/Downloads/chromedriver");
+		WebDriver driver1 = new ChromeDriver();
+		driver1.get("http://demo.guru99.com/test/newtours/index.php");
+		driver1.quit();
+	}
 
 	@AfterMethod
 	public void afterClass() {

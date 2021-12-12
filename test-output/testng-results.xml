@@ -1,45 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Test-Suite" duration-ms="46495" started-at="2021-12-12T19:58:55 IST" finished-at="2021-12-12T19:59:41 IST">
+  <suite name="Test-Suite" duration-ms="35554" started-at="2021-12-12T21:11:55 IST" finished-at="2021-12-12T21:12:31 IST">
     <groups>
+      <group name="smoke">
+        <method signature="demoTest.smoke()[pri:0, instance:com.test.demoTest@436e852b]" name="smoke" class="com.test.demoTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="MyTests" duration-ms="46495" started-at="2021-12-12T19:58:55 IST" finished-at="2021-12-12T19:59:41 IST">
+    <test name="MyTests" duration-ms="35554" started-at="2021-12-12T21:11:55 IST" finished-at="2021-12-12T21:12:31 IST">
       <class name="com.test.demoTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.demoTest@436e852b]" name="beforeClass" is-config="true" duration-ms="3912" started-at="2021-12-12T19:58:55 IST" finished-at="2021-12-12T19:58:59 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.demoTest@436e852b]" name="beforeClass" is-config="true" duration-ms="3568" started-at="2021-12-12T21:11:55 IST" finished-at="2021-12-12T21:11:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.test.demoTest@436e852b]" name="testCase1" duration-ms="19407" started-at="2021-12-12T19:58:59 IST" finished-at="2021-12-12T19:59:18 IST">
+        <test-method status="PASS" signature="smoke()[pri:0, instance:com.test.demoTest@436e852b]" name="smoke" duration-ms="5938" started-at="2021-12-12T21:11:59 IST" finished-at="2021-12-12T21:12:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.demoTest@436e852b]" name="afterClass" is-config="true" duration-ms="75" started-at="2021-12-12T21:12:05 IST" finished-at="2021-12-12T21:12:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.demoTest@436e852b]" name="beforeClass" is-config="true" duration-ms="2444" started-at="2021-12-12T21:12:05 IST" finished-at="2021-12-12T21:12:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testCase1()[pri:0, instance:com.test.demoTest@436e852b]" name="testCase1" duration-ms="6125" started-at="2021-12-12T21:12:07 IST" finished-at="2021-12-12T21:12:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.demoTest@436e852b]" name="afterClass" is-config="true" duration-ms="75" started-at="2021-12-12T19:59:18 IST" finished-at="2021-12-12T19:59:18 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.demoTest@436e852b]" name="afterClass" is-config="true" duration-ms="74" started-at="2021-12-12T21:12:13 IST" finished-at="2021-12-12T21:12:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.demoTest@436e852b]" name="beforeClass" is-config="true" duration-ms="2499" started-at="2021-12-12T19:59:18 IST" finished-at="2021-12-12T19:59:21 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.demoTest@436e852b]" name="beforeClass" is-config="true" duration-ms="2397" started-at="2021-12-12T21:12:13 IST" finished-at="2021-12-12T21:12:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.test.demoTest@436e852b]" name="testCase2" duration-ms="9867" started-at="2021-12-12T19:59:21 IST" finished-at="2021-12-12T19:59:31 IST">
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.test.demoTest@436e852b]" name="testCase2" duration-ms="5975" started-at="2021-12-12T21:12:16 IST" finished-at="2021-12-12T21:12:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.demoTest@436e852b]" name="afterClass" is-config="true" duration-ms="76" started-at="2021-12-12T19:59:31 IST" finished-at="2021-12-12T19:59:31 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.demoTest@436e852b]" name="afterClass" is-config="true" duration-ms="73" started-at="2021-12-12T21:12:22 IST" finished-at="2021-12-12T21:12:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.demoTest@436e852b]" name="beforeClass" is-config="true" duration-ms="2485" started-at="2021-12-12T19:59:31 IST" finished-at="2021-12-12T19:59:33 IST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.demoTest@436e852b]" name="beforeClass" is-config="true" duration-ms="2756" started-at="2021-12-12T21:12:22 IST" finished-at="2021-12-12T21:12:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testCase3()[pri:0, instance:com.test.demoTest@436e852b]" name="testCase3" duration-ms="8021" started-at="2021-12-12T19:59:33 IST" finished-at="2021-12-12T19:59:41 IST">
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:com.test.demoTest@436e852b]" name="testCase3" duration-ms="5975" started-at="2021-12-12T21:12:24 IST" finished-at="2021-12-12T21:12:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase3 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.demoTest@436e852b]" name="afterClass" is-config="true" duration-ms="78" started-at="2021-12-12T19:59:41 IST" finished-at="2021-12-12T19:59:41 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.demoTest@436e852b]" name="afterClass" is-config="true" duration-ms="75" started-at="2021-12-12T21:12:30 IST" finished-at="2021-12-12T21:12:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
