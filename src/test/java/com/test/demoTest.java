@@ -36,12 +36,22 @@ public class demoTest {
 
 	@Test
 	public void testCase2() {
-		System.out.println("This is the A Normal Test Case2");
+		driver.get("http://demo.guru99.com/test/newtours/index.php");
+		driver.findElement(By.xpath("//a[contains(.,'REGISTER')]")).click();
+		driver.findElement(By.xpath("//input[contains(@name,'email')]")).sendKeys("Sumit");
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		System.out.println(driver.findElement(By.xpath("//*[contains(text(),' Thank you ')]")).isDisplayed());
+
 	}
 
 	@Test
 	public void testCase3() {
-		System.out.println("This is the A Normal Test Case3");
+		driver.get("http://demo.guru99.com/test/newtours/index.php");
+		driver.findElement(By.xpath("//a[contains(.,'REGISTER')]")).click();
+		driver.findElement(By.xpath("//input[contains(@name,'email')]")).sendKeys("Sumit");
+		driver.findElement(By.xpath("//input[@type='submit']")).click();
+		System.out.println(driver.findElement(By.xpath("//*[contains(text(),' Thank you ')]")).isDisplayed());
+
 	}
 
 
