@@ -59,7 +59,8 @@ public class demoTest {
 	
 	@Test(groups = {"smoke"})
 	public void smoke() {
-		System.setProperty("webdriver.chrome.driver", "/Users/riyaanghosh/Downloads/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/riyaanghosh/Downloads/chromedriver");
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver1 = new ChromeDriver();
 		driver1.get("http://demo.guru99.com/test/newtours/index.php");
 		driver1.quit();
