@@ -9,6 +9,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class demoTest {
 	
 	WebDriver driver;
@@ -16,7 +18,8 @@ public class demoTest {
 	@BeforeMethod
 	public void beforeClass() {
 		System.out.println("This will execute before the Class");
-		System.setProperty("webdriver.chrome.driver", "/Users/riyaanghosh/Downloads/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/riyaanghosh/Downloads/chromedriver");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
